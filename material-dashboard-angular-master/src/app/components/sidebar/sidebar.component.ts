@@ -8,14 +8,18 @@ declare interface RouteInfo {
     class: string;
 }
 export const ROUTES: RouteInfo[] = [
-    { path: 'dashboard', title: 'Dashboard',  icon: 'dashboard', class: '' },
-    { path: 'user-profile', title: 'User Profile',  icon:'person', class: '' },
-    { path: 'table-list', title: 'Table List',  icon:'content_paste', class: '' },
-    { path: 'typography', title: 'Typography',  icon:'library_books', class: '' },
-    { path: 'icons', title: 'Icons',  icon:'bubble_chart', class: '' },
-    { path: 'maps', title: 'Maps',  icon:'location_on', class: '' },
-    { path: 'notifications', title: 'Notifications',  icon:'notifications', class: '' },
-    { path: 'upgrade', title: 'Upgrade to PRO',  icon:'unarchive', class: 'active-pro' },
+    { path: 'dashboard', title: '성장지원',  icon: 'dashboard', class: '' },
+    { path: 'subscription', title: '서비스가입',  icon:'info', class: '' },
+    { path: 'table-list', title: '과목등록',  icon:'content_paste', class: '' },
+    { path: 'typography', title: '강사등록',  icon:'library_books', class: '' },
+    { path: 'icons', title: '학교등록',  icon:'bubble_chart', class: '' },
+    { path: 'maps', title: '성적등록',  icon:'location_on', class: '' },
+    { path: 'notifications', title: '학생정보',  icon:'person', class: '' },
+    { path: 'user-profile', title: '개인별 학업 현황',  icon:'assessment', class: '' },
+    { path: '2', title: '전체 학업 현황',  icon:'assignment', class: '' },
+    { path: '3', title: '전체출결/보강현황',  icon:'content_paste', class: '' },
+    { path: '4', title: '상담',  icon:'face', class: '' },
+    { path: 'upgrade', title: 'Upgrade to PRO',  icon:'unarchive', class: 'active-pro' }
 ];
 
 @Component({
